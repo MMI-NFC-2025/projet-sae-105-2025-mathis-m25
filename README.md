@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Michel
+- PRÉNOM : Mathis
+- GROUPE : A2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/73caosM6rhT46VMl9ENNYl/MICHEL-Mathis-Design-graphique-%7C-Projet-indiv.-effet-Matilda?node-id=0-1&p=f&t=37b5RGM2VdKEZ13V-0

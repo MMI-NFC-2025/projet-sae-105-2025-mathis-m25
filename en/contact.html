@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | The Forgotten Women of Science</title>
+    <link rel="stylesheet" href="../src/css/normalize.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body class="page-contact">
+
+    <header class="header-contact">
+        <div class="header-contact__top">
+            <a href="accueil.html" class="header-contact__back">
+                <img src="../assets/icons/back-icon.png" alt="Retour">
+            </a>
+            <div class="header-contact__languages">
+                <a href="contact.html"><img src="../assets/icons/fr.png" alt="Français"></a>
+                <a href="../en/contact.html"><img src="../assets/icons/en.png" alt="English"></a>
+            </div>
+        </div>
+        <div class="header-contact__branding">
+            <p class="header-contact__url">theforgottenonesofscience.com</p>
+            <h1 class="header-contact__title">Do you want to contact us?</h1>
+            <p class="header-contact__intro">
+                You can use the form below to ask questions, propose an article, or simply share your opinion on our project dedicated to the forgotten women of science.
+            </p>
+        </div>
+    </header>
+
+    <main class="contact-main">
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="nom" class="form-label">Name</label>
+                <input type="text" id="nom" name="nom" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <fieldset class="form-fieldset">
+                <legend class="form-label">Subject of the message</legend>
+                <div class="form-radio">
+                    <input type="radio" id="question" name="objet" value="question">
+                    <label for="question">Question about an article</label>
+                </div>
+                <div class="form-radio">
+                    <input type="radio" id="collaboration" name="objet" value="collaboration">
+                    <label for="collaboration">Collaboration proposal</label>
+                </div>
+                <div class="form-radio">
+                    <input type="radio" id="source" name="objet" value="source">
+                    <label for="source">Sharing a source</label>
+                </div>
+                <div class="form-radio">
+                    <input type="radio" id="autre" name="objet" value="autre">
+                    <label for="autre">Other</label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send</button>
+        </form>
+
+        <section class="contact-info">
+            <h2 class="contact-info__title">Additional Information</h2>
+            
+            <div class="contact-info__block">
+                <h3>Direct Email:</h3>
+                <p><a href="mailto:contact@theforgottenonesofscience.com">contact@theforgottenonesofscience.com</a></p>
+            </div>
+
+            <div class="contact-info__block">
+                <h3>Social media</h3>
+                <p><strong>Instagram :</strong> <a href="#">@theforgottenonesofscience</a></p>
+                <p><strong>LinkedIn :</strong> <a href="#">Matilda Effect - Science & Women</a></p>
+                <p><strong>YouTube :</strong> <a href="#">The Fabulous - Women Scientists</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__socials">
+                <img src="../assets/icons/image12.svg" alt="Facebook">
+                <img src="../assets/icons/image14.svg" alt="Instagram">
+                <img src="../assets/icons/image13.svg" alt="Twitter">
+            </div>
+            <div class="footer__address">
+                <p>Contact us + credits & sources</p>
+                <p>15, *** Street</p>
+                <p>Belfort (90), Territoire de Belfort</p>
+                <p>MICHEL Mathis A2</p>
+            </div>
+            <nav class="footer__links">
+                <a href="about.html">ABOUT</a>
+                <a href="glossary.html">GLOSSARY</a>
+                <a href="other projects.html">OTHER PROJECTS</a>
+                <a href="home.html">HOME</a>
+                <a href="articles.html">ARTICLES</a>
+            </nav>
+            <div class="footer__logo">
+                <img src="../assets/logos/mmi.png" alt="MMI Montbéliard">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
