@@ -1,0 +1,54 @@
+/**
+ * normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+ */
+
+/* 1. Assure que la hauteur est correcte et empêche les changements d'orientation brusques sur iOS */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 2. Retire les marges par défaut du corps (body) */
+body {
+  margin: 0;
+}
+
+/* 3. Rend les éléments HTML5 affichables correctement sur les vieux navigateurs */
+main {
+  display: block;
+}
+
+/* 4. Corrige la taille de police pour les titres h1 dans les sections */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* 5. Améliore l'apparence des liens */
+a {
+  background-color: transparent;
+}
+
+/* 6. Retire la bordure des images à l'intérieur des liens (surtout pour IE) */
+img {
+  border-style: none;
+}
+
+/* 7. Assure que les boutons et inputs héritent de la police du parent */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* 8. Corrige l'impossibilité de cliquer sur les boutons dans iOS et Safari */
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* 9. Uniformise l'affichage des tableaux */
+table {
+  border-color: inherit;
+  text-indent: 0;
+}
