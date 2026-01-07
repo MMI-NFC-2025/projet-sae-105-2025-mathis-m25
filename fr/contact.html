@@ -3,95 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossaire | Les oubliées de la science</title>
+    <title>Contact | Les Femmes Oubliées de la Science</title>
     <link rel="stylesheet" href="../src/css/normalize.css">
     <link rel="stylesheet" href="../src/css/style.css">
 </head>
-<body class="page-glossary">
+<body class="page-contact">
 
-    <header class="header-common">
-        <div class="header-common__top">
-            <a href="accueil.html" class="header-common__back">
+    <header class="header-contact">
+        <div class="header-contact__top">
+            <a href="accueil.html" class="header-contact__back">
                 <img src="../assets/icons/back-icon.png" alt="Retour">
             </a>
-            <div class="header-common__languages">
-                <a href="glossaire.html"><img src="../assets/icons/fr.png" alt="Français"></a>
-                <a href="../en/glossary.html"><img src="../assets/icons/en.png" alt="English"></a>
+            <div class="header-contact__languages">
+                <a href="../fr/contact.html"><img src="../assets/icons/fr.png" alt="Français"></a>
+                <a href="../en/contact.html"><img src="../assets/icons/en.png" alt="English"></a>
             </div>
         </div>
-        <div class="header-common__branding">
-            <p class="header-common__url">www.lesoublieesdelascience.fr</p>
-            <h1 class="header-common__title">Glossaire</h1>
+        <div class="header-contact__branding">
+            <p class="header-contact__url">lesoublieesdelascience.fr</p>
+            <h1 class="header-contact__title">Voulez-vous nous contacter ?</h1>
+            <p class="header-contact__intro">
+                Vous pouvez utiliser le formulaire ci-dessous pour poser des questions, proposer un article ou simplement partager votre avis sur notre projet dédié aux femmes oubliées de la science.
+            </p>
         </div>
     </header>
 
-    <main class="glossary-main">
-        <table class="glossary-table">
-            <thead>
-                <tr>
-                    <th>Terme</th>
-                    <th>Définition</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Persona</td>
-                    <td>Représentation fictive d'un utilisateur cible construite à partir de recherches et données pour comprendre ses besoins, comportements et attentes.</td>
-                </tr>
-                <tr>
-                    <td>SWOT</td>
-                    <td>Analyse stratégique identifiant les Forces (Strengths), Faiblesses (Weaknesses), Opportunités (Opportunities) et Menaces (Threats) d'un projet.</td>
-                </tr>
-                <tr>
-                    <td>DEEPLIST</td>
-                    <td>Méthode d'analyse externe d'un environnement selon huit critères : Démographique, Économique, Écologique, Politique, Légal, Informatif, Socioculturel et Technologique.</td>
-                </tr>
-                <tr>
-                    <td>Moodboard</td>
-                    <td>Planche visuelle regroupant des images, couleurs et polices pour définir l'identité graphique d'un projet.</td>
-                </tr>
-                <tr>
-                    <td>Arborescence</td>
-                    <td>Schéma hiérarchique illustrant la structure ou l'organisation logique d'un projet, site ou dossier.</td>
-                </tr>
-                <tr>
-                    <td>Story-board</td>
-                    <td>Outil narratif décrivant une séquence d'actions ou d'écrans pour visualiser l'enchaînement des étapes d'un projet.</td>
-                </tr>
-                <tr>
-                    <td>Parcours utilisateur</td>
-                    <td>Représentation des étapes traversées par un utilisateur pour atteindre un objectif (de la découverte à la fidélisation).</td>
-                </tr>
-                <tr>
-                    <td>Benchmark</td>
-                    <td>Étude comparative des solutions existantes sur le marché pour identifier les meilleures pratiques et les points d'amélioration.</td>
-                </tr>
-                <tr>
-                    <td>Cahier des charges</td>
-                    <td>Document contractuel rassemblant les objectifs, spécifications fonctionnelles et contraintes d'un projet.</td>
-                </tr>
-                <tr>
-                    <td>Livrable</td>
-                    <td>Élément concret remis au client ou à l'évaluateur à la fin d'une phase de travail (ex : document, visuel, maquette).</td>
-                </tr>
-                <tr>
-                    <td>Diagramme de GANTT</td>
-                    <td>Outil de planification permettant de visualiser la chronologie et la durée des tâches d'un projet.</td>
-                </tr>
-                <tr>
-                    <td>Tableau des contraintes</td>
-                    <td>Document recensant les limitations techniques, financières, temporelles ou légales d'un projet.</td>
-                </tr>
-                <tr>
-                    <td>Brief</td>
-                    <td>Document initial qui définit les attentes, cibles, moyens et messages clés d'un projet de communication.</td>
-                </tr>
-                <tr>
-                    <td>Prototype/Maquette</td>
-                    <td>Représentation visuelle ou interactive d'un futur produit, interface ou support de communication.</td>
-                </tr>
-            </tbody>
-        </table>
+    <main class="contact-main">
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" id="nom" name="nom" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Adresse e-mail</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <fieldset class="form-fieldset">
+                <legend class="form-label">Objet du message</legend>
+                <div class="form-radio">
+                    <input type="radio" id="question" name="objet" value="question">
+                    <label for="question">Question à propos d'un article</label>
+                </div>
+                <div class="form-radio">
+                    <input type="radio" id="collaboration" name="objet" value="collaboration">
+                    <label for="collaboration">Proposition de collaboration</label>
+                </div>
+                <div class="form-radio">
+                    <input type="radio" id="source" name="objet" value="source">
+                    <label for="source">Partage d'une source</label>
+                </div>
+                <div class="form-radio">
+                    <input type="radio" id="autre" name="objet" value="autre">
+                    <label for="autre">Autre</label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" required></textarea>
+            </div>
+            <p class="form-note">* Tous les champs sont obligatoires afin que l'on puisse vous répondre.</p>
+            <p class="form-rgpd">En envoyant ce formulaire, vous acceptez que vos données soient traitées dans le cadre de cette prise de contact.</p>
+            <button type="submit" class="form-submit">Envoyer</button>
+        </form>
+
+        <section class="contact-info">
+            <h2 class="contact-info__title">Informations supplémentaires</h2>
+            
+            <div class="contact-info__block">
+                <h3>Mailto :</h3>
+                <p><a href="mailto:contact@theforgottenonesofscience.com">contact@lesoublieesdelascience.fr</a></p>
+            </div>
+
+            <div class="contact-info__block">
+                <h3>Réseaux sociaux</h3>
+                <p><strong>Instagram :</strong> <a href="#">@lesoublieesdelascience</a></p>
+                <p><strong>LinkedIn :</strong> <a href="#">Effet Matilda - Les femmes & la Science</a></p>
+                <p><strong>YouTube :</strong> <a href="#">Les Fabuleuses - Femmes Scientifiques</a></p>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -101,23 +93,20 @@
                 <img src="../assets/icons/image14.svg" alt="Instagram">
                 <img src="../assets/icons/image13.svg" alt="Twitter">
             </div>
-            <div class="footer__info-group">
-                <div class="footer__address">
-                    <p><strong>Nous contacter + crédits & sources</strong></p>
-                    <p>15, Rue du ***</p>
-                    <p>Belfort (90), Territoire de Belfort</p>
-                    <p>MICHEL Mathis A2</p>
-                    <p>******@gmail.com</p>
-                    <p class="footer__legal">Mention légales<br>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMI de Montbéliard</p>
-                </div>
-                <nav class="footer__nav">
-                    <a href="a-propos.html">A PROPOS</a>
-                    <a href="autres-projets.html">AUTRES PROJETS</a>
-                    <a href="accueil.html">ACCUEIL</a>
-                    <a href="article.html">ARTICLES</a>
-                    <a href="contact.html">CONTACT</a>
-                </nav>
+            <div class="footer__address">
+                <p>Nous contacter + crédits & sources</p>
+                <p>15, Rue du ***</p>
+                <p>Belfort (90), Territoire de Belfort</p>
+                <p>MICHEL Mathis A2</p>
+                <p>******@gmail.com</p>
             </div>
+            <nav class="footer__links">
+                <a href="a-propos.html">À PROPOS</a>
+                <a href="glossaire.html">GLOSSAIRE</a>
+                <a href="autres projets.html">AUTRES PROJETS</a>
+                <a href="accueil.html">ACCUEIL</a>
+                <a href="../fr/articles.html">ARTICLES</a>
+            </nav>
             <div class="footer__logo">
                 <img src="../assets/logos/mmi.png" alt="MMI Montbéliard">
             </div>
